@@ -11,6 +11,10 @@
             "footer";
     }
 
+
+    :root{
+        --product-row-count: 2;
+    }
     .header__all{
         font-size: 11px;
     }
@@ -21,6 +25,23 @@
 
    nav .menu__icons .fa-bars{
         display: block;
+    }
+
+    .intro__slogan{
+        font-size: 15px;
+    }
+
+    .brand__logo{
+        height: 30%;
+        width: 70%; 
+        position: absolute;
+        right: 50px;       
+    }
+
+    .ending{
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 
     #sidebar{
